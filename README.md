@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# Statistical Analysis of a Vehicle Prototype in R
 
 ## Project Overview
 The purpose of this project is to identify which variables can predict the MPG of a car prototype, "MechaCar", for the fictional company AutosRUs. Summary statistics are generated and t-tests are performed for individual manufacturing lots. Finally, a study is designed to compare MechaCar to the competition. R and [tidyverse](https://www.tidyverse.org/) are used to accomplish this analysis.  
@@ -15,7 +15,7 @@ After performing a multiple linear regression on the [MechaCar_mpg.csv](https://
 
 ![total_summary](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/total_summary_psi.png)  
 
-The design specifications of AutosRUs' prototype "MechaCar" dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Although the total variance in the summary dataframe above shows a variance of 62, which is acceptable, investing the variance of individual manufacture lots has shown that Manufacturing Lot 3 does not meet the current design specifications.
+The design specifications of AutosRUs' prototype "MechaCar" dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Although the total variance in the [summary dataframe](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/total_summary_psi.png) above shows a variance of 62, which is acceptable, investing the variance of individual manufacture lots has shown that Manufacturing Lot 3 does not meet the current design specifications.
 
 Using the code below, the data in [Suspension_Coil.csv](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/datasets/Suspension_Coil.csv) is grouped by manufacturing lot:
 
@@ -30,7 +30,7 @@ After running this code, the following dataframe is generated:
 
 ![manufacturing_lots](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/manufacturing_lots_summary.png)
 
-Based on this lot_summary dataframe it can be concluded that **only Manufacturing Lot 3 does not meet the design specifications.**
+Based on the above [lot_summary dataframe](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/manufacturing_lots_summary.png), it can be concluded that **only Manufacturing Lot 3 does not meet the design specifications** because the variance is far above 100.
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
