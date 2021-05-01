@@ -1,15 +1,13 @@
 # MechaCar_Statistical_Analysis
 
 ## Project Overview
-The purpose of this project is to identify which variables can predict the MPG of car prototypes for the fictional company AutosRUs.
-
-[PROJECT IN PROGRESS]
+The purpose of this project is to identify which variables can predict the MPG of a car prototype, "MechaCar", for the fictional company AutosRUs. Summary statistics are generated and t-tests are performed for individual manufacturing lots. Finally, a study is designed to compare MechaCar to the competition. R and [tidyverse](https://www.tidyverse.org/) are used to accomplish this analysis.  
 
 ## Linear Regression to Predict MPG
 
 ![mechacar_regress](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/mechacar_regress.png)
 
-After performing a multiple linear regression on the MechaCars_mpg.csv dataset, the following conclusions can be made:  
+After performing a multiple linear regression on the [MechaCar_mpg.csv](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/datasets/MechaCar_mpg.csv) dataset, the following conclusions can be made:  
 - **Vehicle Length** and **Ground Clearance** are statistically significant. These variables provide a non-random amount of variance to the MPG values in the dataset.
 - The high significance level of the intercept implies that might be other factors that are significant to MPG. Since all available variables in this dataset were already passed in this regression, it can be inferred that additional research and data are necessary to uncover any unknown significant variables.
 
@@ -19,7 +17,7 @@ After performing a multiple linear regression on the MechaCars_mpg.csv dataset, 
 
 The design specifications of AutosRUs' prototype "MechaCar" dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Although the total variance in the summary dataframe above shows a variance of 62, which is acceptable, investing the variance of individual manufacture lots has shown that Manufacturing Lot 3 does not meet the current design specifications.
 
-Using the code below, the data is grouped by manufacturing lot:
+Using the code below, the data in [Suspension_Coil.csv](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/datasets/Suspension_Coil.csv) is grouped by manufacturing lot:
 
 ```R
 # Creating a lot_summary dataframe grouped by manufacturing lots
