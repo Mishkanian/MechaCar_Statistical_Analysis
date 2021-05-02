@@ -34,19 +34,19 @@ Based on the above [lot_summary dataframe](https://github.com/Mishkanian/MechaCa
 
 ## T-Tests on Suspension Coils
 
-In this section of the analysis, t-tests are used to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+In this section of the analysis, t-tests are used to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. **It is found that only Manufacturing Lot 3 is statistically different from the population mean.**
 
 ### T-Test Across All Manufacturing Lots
 
 ![ttest_mecha](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_mecha.png)
 
-In the t-test above, it is found that the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+In the t-test above, it is found that the PSI across *all* manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
 
 ### Manufacturing Lot 1 T-Test
 
 ![ttest_lot1](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot1.png)
 
-Manufacturing Lot 1 has a p-value of 1, which means that the mean of this Manufacturing Lot is identical to the population mean of 1,500. Therefore we fail to reject the null hypothesis, there is no statistical difference from the population mean.
+Manufacturing Lot 1 has a p-value of 1, which means that the **mean of Manufacturing Lot 1 is identical to the population mean** of 1,500. Therefore we fail to reject the null hypothesis, there is no statistical difference from the population mean.
 
 ### Manufacturing Lot 2 T-Test
 
@@ -61,6 +61,8 @@ Manufacturing Lot 2 has a p-value of 0.61, therefore we fail to reject the null 
 Manufacturing Lot 3 has a p-value of 0.04, therefore we reject the null hypothesis. This means **Manufacturing Lot 3 is statistically different from from the population mean** of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
+
+
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
