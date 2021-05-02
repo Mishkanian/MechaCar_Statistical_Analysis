@@ -34,6 +34,8 @@ Based on the above [lot_summary dataframe](https://github.com/Mishkanian/MechaCa
 
 ## T-Tests on Suspension Coils
 
+In the next section of this analysis, t-tests are used to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
 ### T-Test Across All Manufacturing Lots
 
 ![ttest_mecha](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_mecha.png)
@@ -44,7 +46,7 @@ In the t-test above, it is found that the PSI across all manufacturing lots is s
 
 ![ttest_lot1](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot1.png)
 
-Manufacturing lot 1 has a p-value of 1, which means that the mean is identical to the population mean of 1,500.
+Manufacturing Lot 1 has a p-value of 1, which means that the mean of this Manufacturing Lot is identical to the population mean of 1,500.
 
 ### Manufacturing Lot 2 T-Test
 
@@ -53,6 +55,8 @@ Manufacturing lot 1 has a p-value of 1, which means that the mean is identical t
 ### Manufacturing Lot 3 T-Test
 
 ![ttest_lot3](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot3.png)
+
+## Study Design: MechaCar vs Competition
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
