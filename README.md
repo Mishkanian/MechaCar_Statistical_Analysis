@@ -32,5 +32,27 @@ After running this code, the following dataframe is generated:
 
 Based on the above [lot_summary dataframe](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/manufacturing_lots_summary.png), it can be concluded that **only Manufacturing Lot 3 does not meet the design specifications** because the variance is far above 100.
 
+## T-Tests on Suspension Coils
+
+### T-Test Across All Manufacturing Lots
+
+![ttest_mecha](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_mecha.png)
+
+In the t-test above, it is found that the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+### Manufacturing Lot 1 T-Test
+
+![ttest_lot1](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot1.png)
+
+Manufacturing lot 1 has a p-value of 1, which means that the mean is identical to the population mean of 1,500.
+
+### Manufacturing Lot 2 T-Test
+
+![ttest_lot2](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot2.png)
+
+### Manufacturing Lot 3 T-Test
+
+![ttest_lot3](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_lot3.png)
+
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
