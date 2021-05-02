@@ -40,7 +40,7 @@ In this section of the analysis, t-tests are used to determine if all manufactur
 
 ![ttest_mecha](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/ttest_mecha.png)
 
-In the t-test above, it is found that the PSI across *all* manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+In the t-test above, it is found that the mean across *all* manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
 
 ### Manufacturing Lot 1 T-Test
 
@@ -62,7 +62,16 @@ Manufacturing Lot 3 has a p-value of 0.04, therefore we reject the null hypothes
 
 ## Study Design: MechaCar vs Competition
 
+To quantify how "MechaCar" may perform against the competition, a statistical study of metrics that maximize consumer utility can be performed. In Economics, utility represents how much usefulness or enjoyment a consumer can obtain from consumption of a good or service. In this project, the metrics that might maximize utility of a vehicle are:
+- Purchase Price
+- Fuel Efficiency (Highway and City)
+- Maintenance Cost
+- Safety Ratings
+- Horsepower
 
+The null hypothesis and alternative hypothesis for this proposed study are as follows:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>o</sub>: MechaCar maximizes consumer utility and will perform well against competitors.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>a</sub>: MechaCar does *not* maximize consumer utility and will *not* perform well against competitors. 
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
