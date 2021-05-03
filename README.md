@@ -62,16 +62,22 @@ Manufacturing Lot 3 has a p-value of 0.04, therefore we reject the null hypothes
 
 ## Study Design: MechaCar vs Competition
 
-To quantify how "MechaCar" may perform against the competition, a statistical study of metrics that maximize consumer utility can be performed. In Economics, utility represents how much usefulness or enjoyment a consumer can obtain from consumption of a good or service. In this project, the metrics that might maximize utility of a vehicle are:
+To quantify how "MechaCar" may perform against the competition, a statistical study of metrics that maximize consumer utility can be performed. In Economics, utility represents how much usefulness or enjoyment a consumer can obtain from consumption of a good or service. In this project, the metrics that might affect the utility of a vehicle are:
 - Purchase Price
 - Fuel Efficiency (Highway and City)
 - Maintenance Cost
 - Safety Ratings
 - Horsepower
+- Storage Capacity
 
 The null hypothesis and alternative hypothesis for this proposed study are as follows:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>o</sub>: MechaCar maximizes consumer utility and will perform well against competitors.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>a</sub>: MechaCar does *not* maximize consumer utility and will *not* perform well against competitors. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>o</sub>: MechaCar would have high consumer utility and would perform well against competitors.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>a</sub>: MechaCar would *not* have high consumer utility and would *not* perform well against competitors. 
+
+After gathering the necessary data for the metrics listed above, Multiple Linear Regressions would be used to identify the statistically significant variables that affect sales of similar vehicles. The performace of MechaCar in these important categories will be compared to the mean performace of competitors through the analysis of variance (ANOVA) test.
+
+If it is found that MechaCar would have high consumer utility and would perform well when positioned against competing vehicles, it is recommended to manufacture MechaCar. Otherwise, if the null hypothesis is rejected, it is not recommend to manufacture MechaCar.
+
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
