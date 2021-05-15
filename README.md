@@ -15,7 +15,7 @@ After performing a multiple linear regression on the [MechaCar_mpg.csv](https://
 
 ![total_summary](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/total_summary_psi.png)  
 
-The design specifications of AutosRUs' prototype "MechaCar" dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Although the total variance in the [summary dataframe](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/total_summary_psi.png) above shows a variance of 62, which is acceptable, investing the variance of individual manufacture lots has shown that Manufacturing Lot 3 does not meet the current design specifications.
+The design specifications of AutosRUs' prototype "MechaCar" dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Although the total variance in the [summary dataframe](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/README_images/total_summary_psi.png) above shows a variance of 62, which is acceptable, investigating the variance of individual manufacture lots has shown that Manufacturing Lot 3 does not meet the current design specifications.
 
 Using the code below, the data in [Suspension_Coil.csv](https://github.com/Mishkanian/MechaCar_Statistical_Analysis/blob/main/datasets/Suspension_Coil.csv) is grouped by manufacturing lot:
 
